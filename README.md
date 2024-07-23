@@ -10,6 +10,4 @@ airplane in the next time step, and repeat this procedure at each time step.
 ![image](https://github.com/user-attachments/assets/2dc911f1-1168-4664-b25d-662d5e92b7d2)
 # 2) Linerization and Approximation
 Linearize the complete set of the equations of motion of fixed wing airplane at a symmetric flight reference condition at which reference angle of attack (αo ≠ 0). Decouple the equations into Longitudinal & Lateral dynamics and write them in the state space form.
-'''
-I have refered to Etkin for a good derivation of the linearized equations of motion. 
-'''
+<mark>I have refered to Etkin for a good derivation of the linearized equations of motion.</mark>
