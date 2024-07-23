@@ -1,5 +1,6 @@
 # Autopilot For C5-A Airplane
 This project was done at Cairo University. The objective was to design an Autopilot for a Fixed-wing aircraft which was C5-A. The stability derivatives were taken from the NASA book. Every step has it's task to do in a certain week the final controllers can be found in the Testing file.
+## Task Explination
 # Airplane Model
 In this file you can find Write a code that calculates the (Aerodynamic & Thrust) (Forces & Moments) acting on an Airplane due to pilots input signals ( 𝛿𝑎𝑖𝑙𝑒𝑟𝑜𝑛 , 𝛿𝑟𝑢𝑑𝑑𝑒𝑟 , 𝛿𝑒𝑙𝑒𝑣𝑎𝑡𝑜𝑟 , 𝛿𝑡ℎ𝑟𝑢𝑠𝑡 ) knowing its stability & control derivatives at nominal flight condition. 
 Consult the following document (NASA CR-2144 AIRCRAFT HANDLING QUALITIES DATA) as a reference for the Airplanes’ parameters including the (Stability derivatives, Mass, Inertias) at the Reference Flight conditions. Each team will be assigned an Airplane and a Flight condition. 
@@ -7,4 +8,5 @@ Combine the (Airframe Model) code with the (RBD solver) you built in Numerical S
 airplane in the next time step, and repeat this procedure at each time step. 
 ![image](https://github.com/user-attachments/assets/36b474c3-e602-4d0c-b3e2-a9ce70abd38b)
 ![image](https://github.com/user-attachments/assets/2dc911f1-1168-4664-b25d-662d5e92b7d2)
+# Linerization and Approximation
 
